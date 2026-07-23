@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Rootwave Technologies logo">
+<defs><linearGradient id="g" x1="4" y1="4" x2="60" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#20d3b0"/><stop offset="1" stop-color="#7567f8"/></linearGradient></defs>
+<rect width="64" height="64" rx="18" fill="#07111f"/>
+<path d="M13 35c8-13 14-13 22 0s14 13 22 0" fill="none" stroke="url(#g)" stroke-width="6" stroke-linecap="round"/>
+<path d="M16 24c6-8 11-8 17 0s11 8 17 0" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="4" stroke-linecap="round"/>
+<path d="M32 39v12m0-7-6 6m6-6 6 6" fill="none" stroke="#20d3b0" stroke-width="3.5" stroke-linecap="round"/>
+</svg>
