@@ -49,4 +49,4 @@ The public site uses the registered business name, registration number, contact 
 
 
 ## Paystack contact update
-The public contact number is +254 715 996 223 and the registered office address explicitly includes Kenya.
+The website displays both the international contact number +1 (786) 887-8168 and the Kenya contact number +254 715 996 223. The registered office address explicitly includes Kenya.
