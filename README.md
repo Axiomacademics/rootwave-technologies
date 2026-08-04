@@ -1,52 +1,30 @@
-# Rootwave Technologies Website
+# Rootwave Technologies — Super Website Update
 
-A complete static website prepared for GitHub Pages and the custom domain **rootwavetechnologies.com**.
+This full GitHub Pages package includes the complete website and a new fixed-price digital service catalog.
 
-## Included
-- Responsive multi-page website
-- Services, pricing, portfolio concepts, company information and quote form
-- Privacy, terms, refund and service-delivery policies
-- Honest disabled-payment modal
-- SEO metadata, structured data, sitemap, robots.txt, favicon and social card
-- CNAME file for the custom domain
+## New additions
+- Dedicated `quick-services.html` catalog with 20 services from $8 to $96
+- Search and category filters for quick services
+- Dynamic invoice-request modal showing the selected service and price
+- Updated quote form with all quick services and project packages
+- Revised project pricing from $160 through $3,200+
+- Monthly maintenance plans at $80, $160 and $320
+- Updated delivery, refund and terms language for fixed-scope services
+- Both contact numbers retained:
+  - International: +1 (786) 887-8168
+  - Kenya: +254 715 996 223
+- Registered Kenyan office address remains visible for compliance review
 
-## Publish on GitHub Pages
-1. Create a GitHub repository, for example `rootwave-technologies`.
-2. Upload every file and folder from this package to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`, then save.
-6. In **Custom domain**, enter `rootwavetechnologies.com`.
-7. Configure the domain DNS records with the registrar.
-8. When available, enable **Enforce HTTPS**.
+## Upload to GitHub
+1. Extract this ZIP.
+2. In GitHub Desktop, select `rootwave-technologies`.
+3. Click **Fetch origin**, then **Pull origin** if offered.
+4. Click **Show in Explorer**.
+5. Copy every file and folder from the extracted package into the repository folder.
+6. Choose **Replace files in destination**.
+7. Commit with: `Add fixed-price digital service catalog and updated pricing`.
+8. Push origin.
+9. Wait for GitHub Pages to redeploy, then hard-refresh the website.
 
-## Domain DNS
-For the apex domain, use the current GitHub Pages A records shown in GitHub's official documentation.  
-For `www`, create a CNAME pointing to your GitHub Pages host, such as `YOUR-GITHUB-USERNAME.github.io`.
-
-## Quote form activation
-The quote form uses FormSubmit and sends to `rootwavetechnologies@gmail.com`. The first live submission normally triggers an activation email. Open that email and confirm the form once. After activation, new quote requests are delivered to the inbox.
-
-## Payment status
-All `Pay / Request Invoice` buttons currently show an honest message that online payment is not connected and that no charge was attempted.
-
-After merchant approval and secure backend hosting:
-1. Replace the modal action with hosted checkout or your server endpoint.
-2. Keep secret keys on the server only.
-3. Verify every transaction server-side before marking an invoice paid.
-4. Add webhook verification and reconciliation.
-
-## Pricing logic
-- Below $500: full payment before work begins.
-- $500–$1,499: 60% deposit, 40% before launch.
-- $1,500+: 40% deposit, 30% at design approval, 30% before launch.
-- Domains, hosting, premium software, advertising and third-party fees are excluded unless quoted.
-- Reduce scope rather than discounting more than 10–15%.
-- Review prices after every 3–5 successful projects.
-
-## Important compliance note
-The public site uses the registered business name, registration number, contact details, service descriptions, address and customer policies. Keep all information consistent with official documents and payment-provider applications. Never add invented clients, reviews, locations or transaction claims.
-
-
-## Paystack contact update
-The website displays both the international contact number +1 (786) 887-8168 and the Kenya contact number +254 715 996 223. The registered office address explicitly includes Kenya.
+## Payment integration later
+Buttons currently open an invoice-request modal. After payment approval and secure backend hosting, connect the buttons using their `data-product` and `data-price` values. Never place secret keys in GitHub or browser JavaScript.
